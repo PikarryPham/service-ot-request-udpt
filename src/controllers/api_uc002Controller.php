@@ -1,4 +1,5 @@
 <?php
+    //http://localhost/API/api-quanlynhanvien-uc2/api_uc002
     class api_uc002Controller extends Controllers {
         public function index() {
             echo $this->data_export(404,"Request OT Not Found", null, null, false);
